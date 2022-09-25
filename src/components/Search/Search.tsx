@@ -154,7 +154,6 @@ function Search() {
               onDragOver={evt => evt.preventDefault()}
               onDragStart={() => onDragstart(idx)}
               onDrop={() => onDrop(idx)}
-              alt=""
             />
             <div
               className="input-search-wrapper"
